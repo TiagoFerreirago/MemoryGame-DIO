@@ -81,3 +81,13 @@ h2 {
     backface-visibility: hidden;
     opacity: 0.8;
 }
+
+.item.boxOpen {
+    transform: rotateY(0deg);
+}
+
+.boxMatch::after,
+.boxOpen::after {
+
+    transform:rotateY(180deg);
+}
